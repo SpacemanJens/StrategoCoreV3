@@ -20,7 +20,7 @@ const SCREEN_WIDTH = 2400; // Game: 2400  // DEV: 1200
 const SCREEN_HEIGHT = 1200; // Game: 1200 // DEV: 1000
 const GAME_AREA_X = 300; // Game: 600 // DEV: 300
 const GAME_AREA_Y = 50; // Game: 50 // DEV: 50
-const GAME_AREA_WIDTH = 500; // Game: 1200 // DEV: 500
+const GAME_AREA_WIDTH = 1200; // Game: 1200 // DEV: 500
 const GAME_AREA_HEIGHT = 500; // Game: 700 // DEV: 500
 const GAME_AREA_RIGHT = GAME_AREA_X + GAME_AREA_WIDTH;
 const GAME_AREA_BOTTOM = GAME_AREA_Y + GAME_AREA_HEIGHT;
@@ -30,9 +30,9 @@ const TOTAL_NUMBER_OF_PLAYERS = 6
 const SPACECRAFT_SIZE = 40;
 const SPACECRAFT_SPEED = 4;
 const MAX_PLAYERS_PER_TEAM = 3;
-const BATTLE_RESOLUTION_TIME = 1000; // 5 seconds in milliseconds
-const GAME_TRANSITION_TIME = 1000; // 5 seconds in milliseconds
-const WARP_COOLDOWN_TIME = 30000; // 3 seconds in milliseconds
+const BATTLE_RESOLUTION_TIME = 5000; // 5 seconds in milliseconds
+const GAME_TRANSITION_TIME = 10000; // 5 seconds in milliseconds
+const WARP_COOLDOWN_TIME = 10000; // 3 seconds in milliseconds
 
 // UI Variables
 let nameInput;
